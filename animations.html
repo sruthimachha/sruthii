@@ -1,0 +1,79 @@
+<html>
+    <head>
+<style>
+ 
+      
+ @keyframes sruthi{
+        0% {background-color: rgb(117, 19, 19); top:0px; left:0px;}
+       25% {background-color: yellow; top:0px; left:170px;}
+       /* 50% {background-color: blue; left:170px; top: 300px;} */
+      75%{background-color:chartreuse; top:300px; left:0px;} 
+      100% {background-color: green; left:0px; top:0px;}
+}
+    div{
+        height:60px;
+        width:50px;
+        background-color:rgb(2, 0, 128);
+        position:relative;
+        animation-duration:3s;
+        display: inline-block;
+        border-radius:60%;
+        animation-name: sruthi;
+        animation-direction:reverse;
+        animation-iteration-count: infinite;
+        text-align: center;
+        line-height: 50px;
+
+
+    }
+
+    span{
+        height:60px;
+        width:50px;
+        background-color:rgb(238, 16, 171);
+        position:relative;
+        animation-duration:2s;
+        animation-delay:2s;
+        border-radius:60%;
+        animation-name:sruthi;
+        animation-direction:reverse;
+        display: inline-block;
+        animation-iteration-count: infinite;
+        line-height: 50px;
+        text-align: center;
+    }
+   audio{
+  
+   bottom: 0px;
+   position:absolute;
+   }
+
+
+    </style>
+    </head>
+    <body>
+
+        <h1>CSS Animations</h1>
+
+        <div>S</div>
+        <span>M</span>
+        <div>R</div>
+        <span>A</span>
+        <div>U</div>
+        <span>C</span>
+        <div>T</div>
+        <span>H</span>
+        <div>I</div>
+        <span>A</span>
+        
+       <audio controls>
+        <source src="./" type="audio/mp3"> 
+
+       </audio>
+   
+                
+
+    
+        </body>
+    
+</html>
